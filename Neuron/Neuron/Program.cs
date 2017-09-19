@@ -40,7 +40,6 @@ namespace Neuron
             Console.ResetColor();
             Main(new string[] { });
             Console.ReadLine();
-            
         }
 
         private static void CompareWeightThreshold(int thrash, int sum)
@@ -109,14 +108,5 @@ namespace Neuron
             }
             return sum;
         }
-        public static int Response(int o)
-        {
-            
-            return o;
-        }
-        
-        
     }
-    
-    
 }
